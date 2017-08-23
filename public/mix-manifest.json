@@ -1,4 +1,7 @@
 {
     "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css"
+    "/css/app.css": "/css/app.css",
+    "/faviocon.ico": "/faviocon.ico",
+    "/images/logo.png": "/images/logo.png",
+    "/images/logo_phone.png": "/images/logo_phone.png"
 }
