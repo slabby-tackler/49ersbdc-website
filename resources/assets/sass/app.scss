@@ -7,3 +7,73 @@
 
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+body {
+  font-family: "HelveticaNue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  color: #505050;
+  margin: 0;
+  background-color: #F3F3F3;
+}
+
+.header {
+  background-color: #E1D5BF;
+  padding-top: 15px;
+}
+
+.logo-img {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.site-title {
+  font-size: 40px;
+  font-weight: 100;
+  padding-top: 0;
+  font-family: "Dancing Script", cursive;
+  color: #00703C;
+}
+
+.nav-divide {
+  height: 4px;
+  width: 100%;
+  background-color: #000000;
+}
+
+.navbar {
+  position: static;
+}
+
+.navbar-default {
+  background-color: #FFFFFF;
+  border-radius: 0;
+  border: none;
+  margin-bottom: 0;
+}
+
+.navbar-collapse {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.nav>li>a {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+  color:#15232E;
+  font-size: 1.313em;
+  margin-right: 2em;
+  font-weight: 300;
+}
+
+.navbar-default .navbar-nav>li>.active,
+.navbar-default .navbar-nav>li>.active:hover,
+.navbar-default .navbar-nav>li>.active:focus {
+  font-weight: 400;
+  border-bottom: 8px solid #15232E;
+}
