@@ -16,6 +16,5 @@ Auth::routes();
 Route::group(['middleware' => ['web']], function() {
     Route::get('/', 'HomeController@index');
     Route::get('/lesson', 'HomeController@lesson');
-    Route::get('/officers', 'HomeController@officers');
-    Route::get('/contact', 'HomeController@contact');
+    Route::get('/officer', 'HomeController@officers');
 });

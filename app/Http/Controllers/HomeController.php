@@ -15,4 +15,8 @@ class HomeController extends Controller
     {
         return view('home/index');
     }
+
+    public function officers() {
+        return view('home/officers');
+    }
 }
