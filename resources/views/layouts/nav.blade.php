@@ -10,7 +10,9 @@
         </div>
         <div class="collapse navbar-collapse" id="nav-items">
             <ul class="nav navbar-nav">
-
+                <li><a href="/">Home</a></li>
+                <li><a href="/lesson">Lessons</a></li>
+                <li><a href="/officer">Officers</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
