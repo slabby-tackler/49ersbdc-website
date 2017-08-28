@@ -14,6 +14,11 @@
                 <li><a href="/lesson">Lessons</a></li>
                 <li><a href="/officer">Officers</a></li>
             </ul>
+            <ul class="nav navbar-nav navbar-right">
+                @if(!Auth::guest())
+                    <li><a href="/logout">Logout {{Auth::user()->email}}</a></li>
+                @endif
+            </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>

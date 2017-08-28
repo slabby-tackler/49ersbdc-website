@@ -18,9 +18,19 @@ class CreateUsersTable extends Migration
             $table->string('name');
             $table->string('email')->unique();
             $table->string('password');
+            $table->integer('user_type_id')->default(3);
             $table->rememberToken();
             $table->timestamps();
         });
+
+        DB::table('users')->insert(array(
+            array(
+                'name' => 'Nick Wade',
+                'email' => 'nwade514@gmail.com',
+                'password' => bcrypt(str_random(20)),
+                'user_type_id' => 1,
+            ),
+        ));
     }
 
     /**
